@@ -1,1 +1,10 @@
 /* your code */
+thead tr {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
